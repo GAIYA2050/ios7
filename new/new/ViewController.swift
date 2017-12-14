@@ -13,18 +13,35 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        print(sum1(num1: 200, num2: 13))
+        ///print(sum1(num1: 200, num2: 13))
         //print(sum (x:10,y:30))
+        print (sum1(10,29))
     }
     //MARK:-外部参数
-    func sum1(num1 x:Int,num2 y:Int)-> Int{
+    func sum1(_ x:Int,_ y:Int)-> Int{
+        for _ in 0..<10{
+            print("hellow world")
+        
+        
+        
+        }
+        
+        
+        
         return x + y
+        
+        
+        
+        
     }
     //MARK: -函数定义
     ///函数定义 ， 格式 函数名（形象列表）->返回值类型
     func sum(x:Int,y:Int)-> Int{
         return x + y
     }
-
+    
+    
+    
+    
 }
 
