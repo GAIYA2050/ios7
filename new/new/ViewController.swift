@@ -18,7 +18,22 @@ class ViewController: UIViewController {
         //外部参数测试
         print (sum1(10,29))
         print(sum2(num1: 20, num2: 29))
+        
+        //测试默认值
+        print(sum3())
+        print(sum3(x: 3, y: 3))
+        print(sum3(x:4))
+        print(sum3(y:5))
     }
+    //MARK：-默认值
+    //通过参数设置默认值，在调用的时候，可以任意组合参数，如果不指定的，就是用默认值
+    
+    func sum3(x:Int = 21,y:Int = 2) -> Int{
+        return  x + y
+    }
+    
+    
+    
     
     
     func sum2(num1 x:Int,num2 y:Int)-> Int{
@@ -33,7 +48,7 @@ class ViewController: UIViewController {
     func sum1(_ x:Int,_ y:Int)-> Int{
         for _ in 0..<10{
         print("hellow world")
-               }
+    }
         return x + y
     }
     //MARK: -函数定义
