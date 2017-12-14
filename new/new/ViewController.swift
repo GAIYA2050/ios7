@@ -74,7 +74,7 @@ class ViewController: UIViewController {
     }
         return x + y
     }
-    //MARK: -函数定义
+    //MARK: -函数定义b
     ///函数定义 ， 格式 函数名（形象列表）->返回值类型
     func sum(x:Int,y:Int)-> Int{
         return x + y
