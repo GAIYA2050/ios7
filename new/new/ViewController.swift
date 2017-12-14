@@ -12,14 +12,19 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        print(sum1(num1: 200, num2: 13))
+        //print(sum (x:10,y:30))
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    //MARK:-外部参数
+    func sum1(num1 x:Int,num2 y:Int)-> Int{
+        return x + y
     }
-
+    //MARK: -函数定义
+    ///函数定义 ， 格式 函数名（形象列表）->返回值类型
+    func sum(x:Int,y:Int)-> Int{
+        return x + y
+    }
 
 }
 
