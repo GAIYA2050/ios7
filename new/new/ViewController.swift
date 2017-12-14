@@ -24,7 +24,30 @@ class ViewController: UIViewController {
         print(sum3(x: 3, y: 3))
         print(sum3(x:4))
         print(sum3(y:5))
+        
+        demo2()
+        demo3()
+        demo1()
     }
+    //MARK: -无fan回值
+    /**
+     直接省略
+     （）
+     Void
+     
+     
+     
+     */
+    func demo1(){
+        print ("haha")
+    }
+    func demo2()->(){
+        print ("haha")
+    }
+    func demo3()->Void{
+        print ("haha")
+    }
+    
     //MARK：-默认值
     //通过参数设置默认值，在调用的时候，可以任意组合参数，如果不指定的，就是用默认值
     
