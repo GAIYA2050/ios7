@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
        //最简单的闭包
-        //（）->()没有参数，没有返回值的函数
+        //（）->()没有参数，没有返回值的函数 这个来in都不用写
         let b1 = {
             print ("hellow")
         }
